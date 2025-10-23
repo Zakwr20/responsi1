@@ -5,7 +5,7 @@ API ini mendukung operasi **CRUD (Create, Read, Update, Delete)** serta fitur **
 
 ---
 
-## 🚀 Tujuan Proyek
+## Tujuan Proyek
 Proyek ini dibuat untuk memenuhi tugas pembuatan **REST API sederhana** menggunakan Node.js dan Express.js dengan database eksternal (Supabase), serta deployment ke Vercel.
 
 API ini dikembangkan untuk memudahkan pengguna atau admin dalam:
@@ -16,7 +16,7 @@ API ini dikembangkan untuk memudahkan pengguna atau admin dalam:
 
 ---
 
-## ✨ Fitur Utama
+## Fitur Utama
 
 | Fitur | Deskripsi |
 |-------|------------|
@@ -42,6 +42,25 @@ Data disimpan di **Supabase** dengan struktur tabel `items` seperti berikut:
 | `tanggal_selesai` | date (nullable) | Tanggal sepatu selesai dicuci |
 
 ---
+
+## Contoh Request
+
+GET /item
+
+Response:
+
+```
+[
+  {
+    "id": 4,
+    "customer_name": "zaki",
+    "tipe_sepatu": "crocs",
+    "tipe_servis": "cuci",
+    "tanggal_masuk": "2025-10-23T18:02:26.224702+00:00",
+    "status": "Diterima",
+    "price": 5000
+  }
+]
 
 
 
