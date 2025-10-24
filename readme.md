@@ -62,5 +62,13 @@ Response:
   }
 ]
 
+## 🔗 Endpoint API
 
+### 1. **GET /item**
+Ambil seluruh daftar sepatu.  
+Tambahkan parameter `status` untuk memfilter data.
+
+## 🚀 Contoh Request dan Response
+
+**Endpoint Utama:** '[https://responsi1-lldi.vercel.app/api/item]'
 
